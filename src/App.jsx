@@ -1,3 +1,5 @@
+import saicomputerImage from './assets/saicomputer.png'
+
 export default function App() {
   return (
     <div className="app-shell">
@@ -48,6 +50,11 @@ export default function App() {
             Friendly service, honest pricing, and expert support for all computer needs.
             We help local customers with fast turnaround and quality parts.
           </p>
+        </section>
+
+        <section className="section-card shop-image-section">
+          <h3>Our Shop</h3>
+          <img src={saicomputerImage} alt="Sai Computer Shop" className="shop-image" />
         </section>
 
         <section id="contact" className="section-card contact-card">
